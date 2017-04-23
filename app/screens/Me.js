@@ -19,7 +19,7 @@ class Me extends Component {
         />
 
         <Button
-          title="Settings"
+          title="Opciones"
           buttonStyle={{ marginTop: 20 }}
           onPress={this.handleSettingsPress}
         />
@@ -31,7 +31,7 @@ class Me extends Component {
             hideChevron
           />
           <ListItem
-            title="Phone"
+            title="Teléfono"
             rightTitle={this.props.phone}
             hideChevron
           />
@@ -39,7 +39,7 @@ class Me extends Component {
 
         <List>
           <ListItem
-            title="Username"
+            title="Nombre"
             rightTitle={this.props.login.username}
             hideChevron
           />
@@ -47,12 +47,12 @@ class Me extends Component {
 
         <List>
           <ListItem
-            title="Birthday"
+            title="Cumpleaños"
             rightTitle={this.props.dob}
             hideChevron
           />
           <ListItem
-            title="City"
+            title="Ciudad"
             rightTitle={this.props.location.city}
             hideChevron
           />

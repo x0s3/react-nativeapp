@@ -2,25 +2,25 @@ export const me = {
   "gender": "male",
   "name": {
     "title": "mr",
-    "first": "lance",
-    "last": "thomas"
+    "first": "xose",
+    "last": "prog"
   },
   "location": {
     "street": "6942 first street",
-    "city": "elk grove",
+    "city": "JavaScript",
     "state": "new hampshire",
     "postcode": 30411
   },
-  "email": "lance.thomas@example.com",
+  "email": "x0s3.prog@gmail.com",
   "login": {
-    "username": "organicmouse687",
+    "username": "x0s3",
     "password": "frodo1",
     "salt": "0cSpyp70",
     "md5": "bf758d9c79ef3c8a2c3fd900fb0c3148",
     "sha1": "4f28fcd2d5e5ae5e0ff55b7528841e350cabf9fb",
     "sha256": "1d44ef3ad01dafe929c56021498d8a6d89b2c438bd3f6a07de777ed35b98b5e1"
   },
-  "dob": "1969-12-14 07:28:16",
+  "dob": "14-01-1997",
   "registered": "2010-08-09 13:37:38",
   "phone": "(589)-070-0928",
   "cell": "(110)-065-6280",
@@ -29,9 +29,9 @@ export const me = {
     "value": "408-64-0336"
   },
   "picture": {
-    "large": "https://randomuser.me/api/portraits/men/2.jpg",
-    "medium": "https://randomuser.me/api/portraits/med/men/2.jpg",
-    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/2.jpg"
+    "large": "http://fikrisinema.com/wp-content/uploads/2014/12/Ben-Kimim-FikriSinema.jpg",
+    "medium": "http://fikrisinema.com/wp-content/uploads/2014/12/Ben-Kimim-FikriSinema.jpg",
+    "thumbnail": "http://fikrisinema.com/wp-content/uploads/2014/12/Ben-Kimim-FikriSinema.jpg"
   },
   "nat": "US"
 };

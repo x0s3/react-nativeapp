@@ -7,7 +7,7 @@ import {
 import { List, ListItem } from 'react-native-elements';
 import { users } from '../config/data';
 
-class Feed extends Component {
+class Voluntarios extends Component {
   onLearnMore = (user) => {
     this.props.navigation.navigate('Details', { ...user });
   };
@@ -32,4 +32,4 @@ class Feed extends Component {
   }
 }
 
-export default Feed;
+export default Voluntarios;

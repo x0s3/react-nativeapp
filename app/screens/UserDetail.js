@@ -22,7 +22,7 @@ class UserDetail extends Component {
             hideChevron
           />
           <ListItem
-            title="Phone"
+            title="Teléfono"
             rightTitle={phone}
             hideChevron
           />
@@ -30,7 +30,7 @@ class UserDetail extends Component {
 
         <List>
           <ListItem
-            title="Username"
+            title="Nombre"
             rightTitle={login.username}
             hideChevron
           />
@@ -38,12 +38,12 @@ class UserDetail extends Component {
 
         <List>
           <ListItem
-            title="Birthday"
+            title="Cumpleaños"
             rightTitle={dob}
             hideChevron
           />
           <ListItem
-            title="City"
+            title="Ciudad"
             rightTitle={location.city}
             hideChevron
           />
