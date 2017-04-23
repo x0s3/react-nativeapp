@@ -23,31 +23,42 @@ export const VoluntariosStack = StackNavigator({
   },
 });
 
+export const NoticiasStack = StackNavigator({
+  Noticias: {
+    screen: Noticias,
+    navigationOptions: {
+      title: 'Noticias recientes',
+    },
+  },
+});
+
 export const Tabs = TabNavigator({
   Voluntarios: {
     screen: VoluntariosStack,
     navigationOptions: {
       tabBar: {
-        label: 'Voluntarios',
+        label: 'Usuarios',
         icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
       },
     },
   },
+  
   Me: {
     screen: Me,
     navigationOptions: {
       tabBar: {
-        label: 'Clientes',
+        label: 'Perfil',
         icon: ({ tintColor }) => <Icon name="account-circle" size={35} color={tintColor} />
       },
     },
   },
+
   Noticias: {
-    screen: Noticias,
+    screen: NoticiasStack,
     navigationOptions: {
       tabBar: {
         label: 'Noticias',
-        icon: ({ tintColor }) => <Icon name="account-circle" size={35} color={tintColor} />
+        icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
       },
     },
   },
@@ -57,7 +68,7 @@ export const SettingsStack = StackNavigator({
   Settings: {
     screen: Settings,
     navigationOptions: {
-      title: 'Settings',
+      title: 'Opciones',
     },
   },
 });

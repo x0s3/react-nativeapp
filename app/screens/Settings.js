@@ -8,18 +8,15 @@ class Settings extends Component {
       <ScrollView>
         <List>
           <ListItem
-            title="Notifications"
+            title="Editar correo"
           />
           <ListItem
-            title="Profile"
-          />
-          <ListItem
-            title="Password"
+            title="Editar número de teléfono"
           />
         </List>
         <List>
           <ListItem
-            title="Sign Out"
+            title="Salir de la sessión"
             rightIcon={{ name: 'cancel' }}
           />
         </List>

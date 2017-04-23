@@ -1,27 +1,35 @@
-//import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {
+  Text,
+  View,
+  ScrollView
+} from 'react-native';
+import { List, ListItem } from 'react-native-elements';
+import { news } from '../config/data';
 
-// create a component
 class Noticias extends Component {
-    render() {
-        return (
-            <View style={styles.container}>
-                <Text>Noticias</Text>
-            </View>
-        );
-    }
+  /*onLearnMore = (user) => {
+    this.props.navigation.navigate('Details', { ...user });
+  };*/
+
+  render() {
+    return (
+      <ScrollView>
+        <List>
+          {news.map((currentNew,index) => (
+            <ListItem
+              key={index}
+              roundAvatar
+              avatar={{ uri: "http://www.parroquiatorrelodones.com/wp-content/uploads/2015/05/C%C3%81RITAS-logo.jpg" }}
+              title={`${currentNew.titulo.toUpperCase()} ${currentNew.creador.toUpperCase()}`}
+              subtitle={currentNew.fecha}
+              /*onPress={() => this.onLearnMore(currentNew)}*/
+            />
+          ))}
+        </List>
+      </ScrollView>
+    );
+  }
 }
 
-// define your styles
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#c6871c',
-    },
-});
-
-//make this component available to the app
 export default Noticias;

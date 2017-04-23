@@ -36,6 +36,109 @@ export const me = {
   "nat": "US"
 };
 
+export const news = [
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  },
+  {
+    "titulo":"Nuevo local",
+    "creador":"Caritas",
+    "fecha":"28-04-2017"
+  }
+]
+
 export const users = [
   {
     "gender": "male",
