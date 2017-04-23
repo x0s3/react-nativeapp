@@ -3,7 +3,7 @@ import { ScrollView } from 'react-native';
 import { Tile, List, ListItem, Button } from 'react-native-elements';
 import { me } from '../config/data';
 
-class Me extends Component {
+class Perfil extends Component {
   handleSettingsPress = () => {
     this.props.navigation.navigate('Settings');
   };
@@ -62,6 +62,6 @@ class Me extends Component {
   }
 }
 
-Me.defaultProps = { ...me };
+Perfil.defaultProps = { ...me };
 
-export default Me;
+export default Perfil;

@@ -5,8 +5,10 @@ import { Icon } from 'react-native-elements';
 import Voluntarios from '../screens/Voluntarios';
 import Settings from '../screens/Settings';
 import UserDetail from '../screens/UserDetail';
-import Me from '../screens/Me';
+import Perfil from '../screens/Perfil';
 import Noticias from '../screens/Noticias';
+import Usuarios from '../screens/Usuarios';
+import NewDetail from '../screens/NewDetail';
 
 export const VoluntariosStack = StackNavigator({
   Voluntarios: {
@@ -15,6 +17,7 @@ export const VoluntariosStack = StackNavigator({
       title: 'Voluntarios',
     },
   },
+
   Details: {
     screen: UserDetail,
     navigationOptions: {
@@ -30,6 +33,22 @@ export const NoticiasStack = StackNavigator({
       title: 'Noticias recientes',
     },
   },
+
+  Details: {
+    screen: NewDetail,
+    navigationOptions: {
+      title:({state})=>`${state.params.titulo.toUpperCase()}`
+    },
+  },
+});
+
+export const UsuariosStack = StackNavigator({
+  Usuarios: {
+    screen: Usuarios,
+    navigationOptions: {
+      title: 'Usuarios',
+    },
+  },
 });
 
 export const Tabs = TabNavigator({
@@ -37,14 +56,24 @@ export const Tabs = TabNavigator({
     screen: VoluntariosStack,
     navigationOptions: {
       tabBar: {
+        label: 'Voluntarios',
+        icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
+      },
+    },
+  },
+
+  Usuarios: {
+    screen: UsuariosStack,
+    navigationOptions: {
+      tabBar: {
         label: 'Usuarios',
         icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
       },
     },
   },
-  
-  Me: {
-    screen: Me,
+
+  Perfil: {
+    screen: Perfil,
     navigationOptions: {
       tabBar: {
         label: 'Perfil',
