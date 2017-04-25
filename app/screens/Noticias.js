@@ -25,7 +25,7 @@ class Noticias extends Component {
     });
     const newData = news.filter((item)=>{
       const creadorData = item.creador.toUpperCase();
-      const mensajeData = this.state.busqueda.toUpperCase();
+      const mensajeData = e.toUpperCase();
       return creadorData.indexOf(mensajeData) > -1;
     });
     this.setState({
@@ -56,6 +56,7 @@ class Noticias extends Component {
               onPress={() => this.onLearnMore(rowData)}
             />
           }
+          enableEmptySections={true}
         />
       </ScrollView>
     );

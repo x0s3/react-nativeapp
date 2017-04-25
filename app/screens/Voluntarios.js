@@ -25,7 +25,7 @@ class Voluntarios extends Component {
     });
     const newData = users.filter((item)=> {
       const nombreData = item.name.first.toUpperCase();
-      const busquedaData = this.state.busqueda.toUpperCase();
+      const busquedaData = e.toUpperCase();
       return nombreData.indexOf(busquedaData) > -1;
     });
     this.setState({
@@ -56,6 +56,7 @@ class Voluntarios extends Component {
               onPress={() => this.onLearnMore(rowData)}
             />
           }
+          enableEmptySections={true}
         />
       </ScrollView>
     );
