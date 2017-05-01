@@ -1,7 +1,6 @@
 import React from 'react';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
-
 import Voluntarios from '../screens/Voluntarios';
 import Settings from '../screens/Settings';
 import UserDetail from '../screens/UserDetail';
