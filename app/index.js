@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Root, Tabs } from './config/router';
+import VistaGeneral from './login/VistaGeneral';
 
 class App extends Component {
   render() {
-    return <Root />;
+    return <VistaGeneral />;
   }
 }
 
