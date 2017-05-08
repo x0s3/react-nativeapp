@@ -48,6 +48,13 @@ export const UsuariosStack = StackNavigator({
       title: 'Usuarios',
     },
   },
+
+  Details: {
+    screen:UserDetail,
+    navigationOptions: {
+      title:({state})=>`${state.params.nombre.toUpperCase()}`
+    }
+  }
 });
 
 export const Tabs = TabNavigator({

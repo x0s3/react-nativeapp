@@ -36,6 +36,67 @@ export const me = {
   "nat": "US"
 };
 
+export const clientes = [
+  {  
+    "nombre":"Luis",
+    "localidad":"tarragona",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678A",
+    "edad":"49",
+    "medicacion":"no"
+  },{  
+    "nombre":"Carla",
+    "localidad":"tarragona",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678B",
+    "edad":"37",
+    "medicacion":"no"
+  },{  
+    "nombre":"Benito",
+    "localidad":"Canonja",
+    "entidades":"BonaNit,Cruz Roja",
+    "nif":"12345678P",
+    "edad":"56",
+    "medicacion":"si"
+  },{  
+    "nombre":"Antonia",
+    "localidad":"Reus",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678M",
+    "edad":"44",
+    "medicacion":"no"
+  },{  
+    "nombre":"Bonifacio",
+    "localidad":"tarragona",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678X",
+    "edad":"90",
+    "medicacion":"no"
+  },{  
+    "nombre":"Maria",
+    "localidad":"Bonavista",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678L",
+    "edad":"32",
+    "medicacion":"no"
+  },{  
+    "nombre":"Juan",
+    "localidad":"torreforta",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678A",
+    "edad":"33",
+    "medicacion":"no"
+  },{  
+    "nombre":"Pilar",
+    "localidad":"tarragona",
+    "entidades":"PASS,BonaNit,Cruz Roja",
+    "nif":"12345678N",
+    "edad":"66",
+    "medicacion":"si"
+  },
+]
+
+
 export const news = [
   {
     "titulo":"Nuevo local",
@@ -48,7 +109,7 @@ export const news = [
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
   },
   {
-    "titulo":"Esto es la hostia",
+    "titulo":"Esto es nuevo",
     "creador":"xose",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
@@ -60,7 +121,7 @@ export const news = [
   },
   {
     "titulo":"Nuevo local",
-    "creador":"Pepillo",
+    "creador":"veronica",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
@@ -70,8 +131,8 @@ export const news = [
 
   },
   {
-    "titulo":"Nuevo local",
-    "creador":"PutoAmo",
+    "titulo":"Fiesta en la plaza",
+    "creador":"amanda",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
@@ -81,8 +142,8 @@ export const news = [
 
   },
   {
-   "titulo":"Nuevo local",
-    "creador":"Caritas",
+   "titulo":"Reparto de ropa",
+    "creador":"martin",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
@@ -92,8 +153,8 @@ export const news = [
 
   },
   {
-   "titulo":"Nuevo local",
-    "creador":"Caritas",
+   "titulo":"Paella en el vidal",
+    "creador":"jordi",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."

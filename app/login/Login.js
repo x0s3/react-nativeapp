@@ -29,10 +29,10 @@ class Login extends Component {
         this.setState({password: e})
     }
 
-    componentWillMount() {
+    /*componentWillMount() {
         //aqui vendria la comprobación de la persistencia con realm
         //this.props.navigator.push({id: 'App'});
-    }
+    }*/
 
     handleLogin() {
 
