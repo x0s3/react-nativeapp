@@ -8,6 +8,7 @@ import Perfil from '../screens/Perfil';
 import Noticias from '../screens/Noticias';
 import Usuarios from '../screens/Usuarios';
 import NewDetail from '../screens/NewDetail';
+import VoluntarioDetail from '../screens/VoluntarioDetail';
 
 export const VoluntariosStack = StackNavigator({
   Voluntarios: {
@@ -18,7 +19,7 @@ export const VoluntariosStack = StackNavigator({
   },
 
   Details: {
-    screen: UserDetail,
+    screen: VoluntarioDetail,
     navigationOptions: {
       title: ({ state }) => `${state.params.name.first.toUpperCase()} ${state.params.name.last.toUpperCase()}`
     },
