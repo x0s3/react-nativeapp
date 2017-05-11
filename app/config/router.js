@@ -1,4 +1,5 @@
 import React from 'react';
+import {Image} from 'react-native';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 import Voluntarios from '../screens/Voluntarios';
@@ -63,7 +64,7 @@ export const Tabs = TabNavigator({
     screen: VoluntariosStack,
     navigationOptions: {
       tabBar: {
-        label: 'Voluntarios',
+        label: <Image source={require('../iconos/teamwork.png')}/>,
         icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
       },
     },
@@ -73,7 +74,7 @@ export const Tabs = TabNavigator({
     screen: UsuariosStack,
     navigationOptions: {
       tabBar: {
-        label: 'Usuarios',
+        label: <Image source={require('../iconos/charity.png')}/>,
         icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
       },
     },
@@ -83,7 +84,7 @@ export const Tabs = TabNavigator({
     screen: Perfil,
     navigationOptions: {
       tabBar: {
-        label: 'Perfil',
+        label: <Image source={require('../iconos/user.png')}/>,
         icon: ({ tintColor }) => <Icon name="account-circle" size={35} color={tintColor} />
       },
     },
@@ -93,7 +94,7 @@ export const Tabs = TabNavigator({
     screen: NoticiasStack,
     navigationOptions: {
       tabBar: {
-        label: 'Noticias',
+        label: <Image source={require('../iconos/newspaper.png')}/>,
         icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
       },
     },

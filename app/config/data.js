@@ -1,19 +1,19 @@
 export const me = {
-  "gender": "male",
+  "gender": "female",
   "name": {
-    "title": "mr",
-    "first": "xose",
-    "last": "prog"
+    "title": "",
+    "first": "Meraki",
+    "last": ""
   },
   "location": {
     "street": "6942 first street",
-    "city": "JavaScript",
+    "city": "Tarragona",
     "state": "new hampshire",
     "postcode": 30411
   },
-  "email": "x0s3.prog@gmail.com",
+  "email": "meraki@meraki.com",
   "login": {
-    "username": "x0s3",
+    "username": "Meraki",
     "password": "frodo1",
     "salt": "0cSpyp70",
     "md5": "bf758d9c79ef3c8a2c3fd900fb0c3148",
@@ -29,9 +29,9 @@ export const me = {
     "value": "408-64-0336"
   },
   "picture": {
-    "large": "http://fikrisinema.com/wp-content/uploads/2014/12/Ben-Kimim-FikriSinema.jpg",
-    "medium": "http://fikrisinema.com/wp-content/uploads/2014/12/Ben-Kimim-FikriSinema.jpg",
-    "thumbnail": "http://fikrisinema.com/wp-content/uploads/2014/12/Ben-Kimim-FikriSinema.jpg"
+    "large": "http://i.imgur.com/vFTyjDY.jpg",
+    "medium": "http://i.imgur.com/vFTyjDY.jpg",
+    "thumbnail": "http://i.imgur.com/vFTyjDY.jpg"
   },
   "nat": "US"
 };
@@ -52,7 +52,7 @@ export const clientes = [
     "edad":"37",
     "medicacion":"no"
   },{  
-    "nombre":"Benito",
+    "nombre":"Andres",
     "localidad":"Canonja",
     "entidades":"BonaNit,Cruz Roja",
     "nif":"12345678P",
@@ -66,7 +66,7 @@ export const clientes = [
     "edad":"44",
     "medicacion":"no"
   },{  
-    "nombre":"Bonifacio",
+    "nombre":"Pedro",
     "localidad":"tarragona",
     "entidades":"PASS,BonaNit,Cruz Roja",
     "nif":"12345678X",
@@ -109,14 +109,14 @@ export const news = [
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
   },
   {
-    "titulo":"Esto es nuevo",
-    "creador":"xose",
+    "titulo":"Cena Solidaria",
+    "creador":"jose",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
-    "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
+    "mensaje":"Se ofrece una cena solidaria para todas aquellas personas que quieran participar en el evento para recaudar fondos y pasar una noche agradable y enriquecedora"
 ,
     "localidad":"Tarragona",
-    "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
+    "mensaje":"Se ofrece una cena solidaria para todas aquellas personas que quieran participar en el evento para recaudar fondos y pasar una noche agradable y enriquecedora"
 
   },
   {
@@ -153,7 +153,7 @@ export const news = [
 
   },
   {
-   "titulo":"Paella en el vidal",
+   "titulo":"Paella popular",
     "creador":"jordi",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
@@ -164,15 +164,15 @@ export const news = [
 
   },
   {
-    "titulo":"Nuevo local",
-    "creador":"Caritas",
+    "titulo":"Encuentro de entidades",
+    "creador":"Ayuntamiento",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
     "mensaje":"Aute dolore enim cupidatat veniam cillum sint est pariatur esse esse do non commodo. Excepteur sunt pariatur tempor elit exercitation cupidatat consectetur. Ut reprehenderit consectetur exercitation exercitation ullamco occaecat. Mollit incididunt commodo et adipisicing ut. Fugiat fugiat ea aliquip minim."
 
   },
   {
-    "titulo":"Nuevo local",
+    "titulo":"Cierre temporal del albergue",
     "creador":"Caritas",
     "fecha":"28-04-2017",
     "localidad":"Tarragona",
@@ -282,18 +282,18 @@ export const users = [
     "gender": "male",
     "name": {
       "title": "mr",
-      "first": "jacob",
-      "last": "wilson"
+      "first": "Jose",
+      "last": "Marquez"
     },
     "location": {
       "street": "3649 dieppe ave",
-      "city": "maitland",
+      "city": "tarragona",
       "state": "nunavut",
       "postcode": 58699
     },
-    "email": "jacob.wilson@example.com",
+    "email": "jose.jose@jose.com",
     "login": {
-      "username": "smallmouse862",
+      "username": "Jose Marquez",
       "password": "christin",
       "salt": "2syKiC3G",
       "md5": "38abd66466233cb15cbe32bc9bfe5159",
@@ -319,8 +319,8 @@ export const users = [
     "gender": "male",
     "name": {
       "title": "mr",
-      "first": "barış",
-      "last": "adal"
+      "first": "Jordi",
+      "last": "Prous"
     },
     "location": {
       "street": "3875 fatih sultan mehmet cd",
@@ -355,9 +355,9 @@ export const users = [
   {
     "gender": "female",
     "name": {
-      "title": "miss",
-      "first": "lillie",
-      "last": "fox"
+      "title": "mrs",
+      "first": "Amanda",
+      "last": "Lopez"
     },
     "location": {
       "street": "7057 nowlin rd",
@@ -393,8 +393,8 @@ export const users = [
     "gender": "male",
     "name": {
       "title": "mr",
-      "first": "andreas",
-      "last": "madsen"
+      "first": "Martin",
+      "last": "Ruda"
     },
     "location": {
       "street": "3556 toften",
@@ -430,8 +430,8 @@ export const users = [
     "gender": "female",
     "name": {
       "title": "mrs",
-      "first": "clara",
-      "last": "taylor"
+      "first": "Veronica",
+      "last": "Cobo"
     },
     "location": {
       "street": "5485 tecumseh rd",
@@ -467,8 +467,8 @@ export const users = [
     "gender": "female",
     "name": {
       "title": "mrs",
-      "first": "denise",
-      "last": "jones"
+      "first": "Bea",
+      "last": "Gutierrez"
     },
     "location": {
       "street": "7749 ash dr",
@@ -504,8 +504,8 @@ export const users = [
     "gender": "female",
     "name": {
       "title": "miss",
-      "first": "nicole",
-      "last": "bryant"
+      "first": "Soraya",
+      "last": "Hernandez"
     },
     "location": {
       "street": "3698 dame street",
@@ -541,8 +541,8 @@ export const users = [
     "gender": "female",
     "name": {
       "title": "madame",
-      "first": "anaëlle",
-      "last": "lemoine"
+      "first": "Fatima",
+      "last": "Lopez"
     },
     "location": {
       "street": "9876 rue des cuirassiers",

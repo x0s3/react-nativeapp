@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView,Image } from 'react-native';
 import { Tile, List, ListItem } from 'react-native-elements';
 
 class UserDetail extends Component {
@@ -9,6 +9,12 @@ class UserDetail extends Component {
     return (
       <ScrollView>
         <List>
+          <Tile
+            imageSrc={require('./foto1.jpg')}
+            title=""
+            featured
+            caption=""
+          />
           <ListItem
             title="Localidad"
             rightTitle={localidad}

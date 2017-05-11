@@ -36,7 +36,7 @@ class Login extends Component {
 
     handleLogin() {
 
-        if (this.state.email == "xose" && this.state.password == "xose") {
+        if (this.state.email == "meraki" && this.state.password == "meraki") {
             this.props.navigator.push({id: 'App'});
         } else 
             Alert.alert("Login incorrecto", "Correo o contraseña equivocadas");
@@ -45,7 +45,7 @@ class Login extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Image source={require('../login/meraki.jpeg')} style={styles.imagen}/>
+                <Image source={require('../iconos/meraki.jpeg')} style={styles.imagen}/>
                 <FormLabel>Correo electrónico</FormLabel>
                 <FormInput  onChangeText={this.handleEmail}/>
                 <FormLabel>Contraseña</FormLabel>
